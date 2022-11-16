@@ -1,2 +1,2 @@
-# web_accessability_2022
-Assignments for Tampere University's Web Accessability I module
+# web_accessibility_2022
+Assignments for Tampere University's Web Accessibility I module
