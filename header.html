@@ -16,30 +16,18 @@
     </head>
     <body>
         <div id="left" class="column">
-                <div class="top-left">Top Left</div>
+                <div class="top-left"></div>
                 <div class="bottom">
-                    <p><a href="header.html" class="href">Index</p>
-                    <p><a href="header2.html" class="href">WCAG Principles</p>
-                    <p>Use of images</p>
-                    <p><a href="header2.html" class="href">Use of color</p>
-                    <p>Layout</p>
-                    <p>six</p>
-                    <p>seven</p>
-                    <p>eight</p>
-                    <p>nine</p>
-                    <p>ten</p>
-                    <p>eleven</p>
-                    <p>twelve</p>
+                    <p><a href="index.html" class="href">Index</p>
+                    <p><a href="wcag.html" class="href">WCAG Principles</p>
+                    <p><a href="images.html" class="href">Use of images</a></p>
+                    <p><a href="color.html" class="href">Use of color</p>
+                    <p><a href="layout.html" class="href">Layout</a></p>
                 </div>
             </div>
             <div id="right" class="column">
                 <div class="top-right">
-                    <ul>
-                        <li>aa</a></li>
-                        <li>two</li>
-                        <li>three</li>
-                        <li>four</li>
-                    </ul>
+                    <h2><a href="index.html" class="href">Website Accessibility I - Tuni 2022</a></h2>
            
            
            
@@ -51,34 +39,56 @@
 
             <div class="title" style="text-align: center;">
                 <h1>WCAG Principles</h1>
-                <p>The WCAG guidelines and success criteria are organized around the following four principles (P.O.U.R.)</p>
+                <p>The WCAG guideline provides four principles that help assess the accessibility of a website.</p>
             </div>
 
                     
             <div class="child">
-                <h1>1. Perceivable</h1>
-                <p>Information and user interface components must be presentable to users in ways they can perceive.</p>
+                <h1>1. Perceivability</h1>
+                <p>Website should provide information and user interface components in an easily perceivable way. </p>
+                <ol>
+                    <li>Use olor, images, fonts, element organization to help the eye.</li>
+                    <li>MAke sure website does not "break" if accessibility devices and add-ons are used to change text size, colors, etc.</li>
+                </ol>
             </div>
                 
             <div class="child">
-                <h1>2. Operable</h1>
-                <p>User interface components and navigation must be operable.</p>
+                <h1>2. Operability</h1>
+                <p>Interface components must be operable through multiple ways.<br><br>
+                Website must be tested to function properly with:
+                <ol>
+                    <li>Make sure site works with both mobile and computer devices.</li>
+                    <li>Make sure interface is navigable with both mouse and keyboard navigation</li>
+                    <li>Use flexbox for boxes!</li>
+                </ol>
+            </p>
             </div>
                     
             <div class="child">
-                <h1>3. Understandable</h1>
-                <p>Information and the operation of user interface must be understandable.</p>
+                <h1>3. Understandability</h1>
+                <p>Information and the user interface must be easy and logical for the user to understand.
+                    <ol>
+                        <li>Use clear, simple language where available.</li>
+                        <li>Links must be clear about where they link to.</li>
+                        <li>Header must be clear and descriptive.</li>
+                    </ol>
+                    </p>
             </div>
 
             <div class="child">
-                <h1>4. Robust</h1>
-                <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
+                <h1>4. Robustness</h1>
+                <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
+                <p>
+                    <li>Make sure site is legible with screen-reader and other accessibility devides.</li>
+                </p>
             </div>     
             
 
             <div class="child">
                 <h1>Color contrast</h1>
-                <p>Colo contrast   Many websites provide ways to check contrast of color: https://webaim.org/resources/contrastchecker/</p>
+                <img src="images/color_wheel.png" width="60%"><br>
+                <span class="caption">A color wheel showcasing the gradient of all different color hues.</span>
+                <p>Color contrast helps people with different eyesights navigate the page better.</p>
             </div>     
             <div class="child">
                 <h1> Links can be colored.</h1>
@@ -109,16 +119,20 @@
 
             <div class="child">
                 <h1> Color palette</h1>
-                <img src="images/color_palette.jpg" width="60%"><br>
-                <span class="caption"></span>
-                <p>Animations should avoid flashing colors.</p>
+                <img src="images/cat_animated.gif" width="60%"><br>
+                <span class="caption">A fluffy cat opening and closing its paws.</span>
+                <p>Videos, gifs and other moving content should avoid flashing colors.</p>
             </div>     
 
-            <div class="child">
-                <h1>LAyout</h1>
-                <p>Layout should emphasize content through visual and non-visual methods.</p>
+            <div class="child-focus">
+                <h1>⚠️ Attention! ⚠️</h1>
+                <p>Layout can emphasize content through visual and non-visual methods.</p>
             </div>     
-            
+
+            <div class="child-lessfocus">
+                <h1>Additionally</h1>
+                <p>Layout can guide the user's eye towards different things on the page. However non-visual assistive techonlogies, must be considered within layout also.</p>
+            </div>     
             
             </div>
         
