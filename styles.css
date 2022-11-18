@@ -1,3 +1,8 @@
+body {
+    font-size:18px;
+
+}
+
 
 a:link {
 color: rgb(238, 105, 138);
@@ -51,7 +56,7 @@ width: 100%;
 flex-shrink: 0;
 background-color: rgb(48, 48, 48);
 color: white;
-padding: 54px;
+padding: 59px;
 width: 100%;
 }
 .top-right {
