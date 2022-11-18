@@ -1,7 +1,8 @@
-# web_accessibility_2022
+#An assignment for Tampere University's Web Accessibility I module
 
-**Assignment for Tampere University's Web Accessibility I module.**
 ![Screencap of the webpage](https://i.imgur.com/WYmLKDM.png)
+
+**A simple webpage with:
 * WCAG principles
 * Aria-labels
 * Image labeling
