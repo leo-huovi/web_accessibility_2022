@@ -15,14 +15,14 @@
         </style>
     </head>
     <body>
-        <div id="left" class="column">
+        <div id="left" class="column" aria-label="Sidebar">
                 <div class="top-left"></div>
                 <div class="bottom">
-                    <p><a href="index.html" class="href">Index</p>
-                    <p><a href="wcag.html" class="href">WCAG Principles</p>
-                    <p><a href="images.html" class="href">Use of images</a></p>
-                    <p><a href="color.html" class="href">Use of color</p>
-                    <p><a href="layout.html" class="href">Layout</a></p>
+                    <p><a href="index.html" class="href"><img src="images/index_icon.png" width="48px"> Index</p>
+                    <p><a href="wcag.html" class="href"><img src="images/principles_icon.png" width="48px"> WCAG Principles</p>
+                    <p><a href="images.html" class="href"><img src="images/image_icon.png" width="48px"> Use of images</a></p>
+                    <p><a href="color.html" class="href"><img src="images/color_icon.png" width="48px"> Use of color</p>
+                    <p><a href="layout.html" class="href"><img src="images/layout_icon.png" width="48px"> Use of layout</a></p>
                 </div>
             </div>
             <div id="right" class="column" aria-label="Header">
@@ -34,7 +34,7 @@
                 </div>
 
             
-            <div class="bottom-right">
+            <div class="bottom-right" aria-label="Main content">
                 
 
             <div class="title" style="text-align: center;">
@@ -45,18 +45,17 @@
         
             <div class="child">
                 <h1>1. Perceivability</h1>
-                <p>Website should provide information and user interface components in an easily perceivable way. </p>
-                <ol>
-                    <li>Use olor, images, fonts, element organization to help the eye.</li>
-                    <li>MAke sure website does not "break" if accessibility devices and add-ons are used to change text size, colors, etc.</li>
-                </ol>
+                <p>
+                <ol style="text-align:left">
+                    <li>Use color, images, fonts, element organization to help the eye.</li>
+                    <li>Make sure website does not "break" if accessibility devices and add-ons are used to change text size, colors, etc.</li>
+                </ol></p>
             </div>
                 
             <div class="child">
                 <h1>2. Operability</h1>
-                <p>Interface components must be operable through multiple ways.<br><br>
-                Website must be tested to function properly with:
-                <ol>
+                <p>
+                <ol style="text-align:left">
                     <li>Make sure site works with both mobile and computer devices.</li>
                     <li>Make sure interface is navigable with both mouse and keyboard navigation</li>
                     <li>Use flexbox for boxes!</li>
@@ -66,9 +65,9 @@
                     
             <div class="child">
                 <h1>3. Understandability</h1>
-                <p>Information and the user interface must be easy and logical for the user to understand.
-                    <ol>
-                        <li>Use clear, simple language where available.</li>
+                <p>
+                    <ol style="text-align:left">
+                        <li>Use clear, simple language whenever possible.</li>
                         <li>Links must be clear about where they link to.</li>
                         <li>Header must be clear and descriptive.</li>
                     </ol>
@@ -77,10 +76,12 @@
 
             <div class="child">
                 <h1>4. Robustness</h1>
-                <p>Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
                 <p>
-                    <li>Make sure site is legible with screen-reader and other accessibility devides.</li>
-                </p>
+                    <ol style="text-align:left">
+                        <li>Content must be interpreted reliably by a wide variety of user agents, including assistive technologies.</li>
+                     <li>Make sure site is legible with screen-reader and other accessibility devides.</li>
+                    </ol>
+                    </p>
             </div>     
             
             </div>

@@ -1,16 +1,17 @@
 
 a:link {
-color: red;
+color: rgb(238, 105, 138);
 }
 
 /* visited link */
 a:visited {
-color: green;
+color: rgb(192, 132, 182);
 }
 
 /* mouse over link */
 a:hover {
-color: hotpink;
+color: rgb(146, 99, 221);
+background-color: rgb(188, 235, 219);
 }
 
 .caption {
@@ -40,7 +41,7 @@ flex-direction: column;
 }
 #left {
 flex-shrink: 0;
-background-color: rgb(224, 224, 224);
+background-color: rgb(228, 235, 232);
 }
 #right {
 background-color: #fafafa;
@@ -48,7 +49,7 @@ width: 100%;
 }
 .top-left {
 flex-shrink: 0;
-background-color: #333;
+background-color: rgb(48, 48, 48);
 color: white;
 padding: 54px;
 width: 100%;
@@ -56,7 +57,7 @@ width: 100%;
 .top-right {
 display: inline-flex;
 flex-shrink: 0;
-background-color: #333;
+background-color: rgb(48, 48, 48);
 color: white;
 padding: 20px;
 width: auto;
@@ -81,7 +82,7 @@ padding: 20px;
 
 .empty {
     background-color: rgb(250, 250, 255);
-    border: 2px solid  rgb(234, 234, 247);
+    border: 2px solid  rgb(234, 247, 237);
     border-radius: 5px;
     text-align: center;
     border-radius: 5px;
@@ -93,8 +94,8 @@ padding: 20px;
     }
     
 .child {
-background-color: rgb(250, 250, 255);
-border: 2px solid  rgb(234, 234, 247);
+background-color: rgb(243, 243, 243);
+border: 2px solid  rgb(231, 238, 231);
 border-radius: 5px;
 text-align: center;
 border-radius: 5px;
@@ -106,12 +107,12 @@ flex: 1 1 0px ;
 }
 
 .child-focus {
-background-color: rgb(255, 198, 188);
-border: 2px solid  rgb(255, 108, 108);
+background-color: rgb(255, 221, 214);
+border: 5px solid  rgb(252, 170, 170);
 color:rgb(0, 0, 0);
 border-radius: 5px;
 text-align: center;
-padding: 20px;
+padding: 70px;
 min-width: 40%;
 max-width: 50%;
 max-height: fit-content;
@@ -124,7 +125,7 @@ color:rgb(49, 49, 49);
 align-items: inline-flex;
 border-radius: 5px;
 text-align: center;
-padding: 20px;
+padding: 10px;
 min-width: 40%;
 max-height: fit-content;
 }
