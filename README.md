@@ -1,10 +1,10 @@
 # Web Accessibility I website
 
-** An assignment for Tampere University's Web Accessibility I module
+**An assignment for Tampere University's Web Accessibility I module**
 
 ![Screencap of the webpage](https://i.imgur.com/WYmLKDM.png)
 
-**A simple webpage with:**
+**A simple webpage utilizing:**
 * WCAG principles
 * Aria-labels
 * Image labeling
